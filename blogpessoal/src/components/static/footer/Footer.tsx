@@ -9,7 +9,7 @@ function Footer(){
         <>
          <Grid container direction="row" justifyContent="center" alignItems="center">
                 <Grid alignItems="center" item xs={12}>
-                    <Box style={{ backgroundColor: "#6D6FFF", height: "120px" }}>
+                    <Box style={{ backgroundColor: "#446981", height: "120px" }}>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
                             <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Encontre-me também nas redes sociais </Typography>
                         </Box>
@@ -25,14 +25,9 @@ function Footer(){
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "#000E87", height: "60px" }}>
+                    <Box style={{ backgroundColor: "#00263e", height: "40px" }}>
                         <Box paddingTop={1}>
                             <Typography variant="subtitle2" align="center" gutterBottom style={{ color: "white" }} >© 2023 Desenvolvido por Bruno Ferreira</Typography>
-                        </Box>
-                        <Box>
-                            <a target="_blank" href="brunoo.lcf10@gmail.com">
-                                <Typography variant="subtitle2" gutterBottom style={{ color: "white" }} align="center">brunoo.lcf10@gmail.com</Typography>
-                            </a>
                         </Box>
                     </Box>
                 </Grid>

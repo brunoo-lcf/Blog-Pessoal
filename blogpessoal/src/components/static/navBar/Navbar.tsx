@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <>
             <AppBar position="static">
-                <Toolbar variant="dense">
+                <Toolbar variant="dense" style={{ backgroundColor: "#00263e"}}>
                     <Box style={{ cursor: "pointer" }} >
                         <Typography variant="h5" color="inherit">
                             BlogPessoal 
@@ -31,7 +31,7 @@ function Navbar() {
                         </Box>
                         <Box mx={1} style={{ cursor: "pointer" }}>
                             <Typography variant="h6" color="inherit">
-                                Cadastrar Tema
+                                Cadastrar
                             </Typography>
                         </Box>
                         <Box mx={1} style={{ cursor: "pointer" }}>
