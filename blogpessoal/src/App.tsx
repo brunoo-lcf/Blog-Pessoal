@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './pages/login/Login';
+import CadastroUsuario from './pages/cadastroUsuario/CadastroUsuario';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/" element={<Login />} />
           <Route path="/login" element={<Login />} />
-          {/* <Route path="/cadastro" element={<CadastroUsuario />} /> */}
+          <Route path="/cadastrousuario" element={<CadastroUsuario />} />
         </Routes>
       </div>
       <Footer />
