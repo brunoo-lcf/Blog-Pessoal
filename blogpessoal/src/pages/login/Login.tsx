@@ -27,9 +27,10 @@ function Login() {
     }
 
     useEffect(() => {
-        if (token != '') 
+        if (token != ''){ 
             navigate('/home')
-    }, [token])
+    }
+}, [token])
 
     async function onSubmit(e: ChangeEvent<HTMLFormElement>) {
         e.preventDefault();
